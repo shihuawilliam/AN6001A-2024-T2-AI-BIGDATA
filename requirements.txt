@@ -1,3 +1,4 @@
 flask
 gunicorn
 Textblob
+google-generativeai

@@ -1,0 +1,5 @@
+#!/workspaces/AN6001A-2024-T2-AI-BIGDATA/.conda/bin/python3.11
+
+import pydoc
+if __name__ == '__main__':
+    pydoc.cli()

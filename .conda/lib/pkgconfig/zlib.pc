@@ -1,0 +1,13 @@
+prefix=/workspaces/AN6001A-2024-T2-AI-BIGDATA/.conda
+exec_prefix=/workspaces/AN6001A-2024-T2-AI-BIGDATA/.conda
+libdir=/workspaces/AN6001A-2024-T2-AI-BIGDATA/.conda/lib
+sharedlibdir=/workspaces/AN6001A-2024-T2-AI-BIGDATA/.conda/lib
+includedir=/workspaces/AN6001A-2024-T2-AI-BIGDATA/.conda/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

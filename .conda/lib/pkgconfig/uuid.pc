@@ -1,0 +1,11 @@
+prefix=/workspaces/AN6001A-2024-T2-AI-BIGDATA/.conda
+exec_prefix=/workspaces/AN6001A-2024-T2-AI-BIGDATA/.conda
+libdir=/workspaces/AN6001A-2024-T2-AI-BIGDATA/.conda/lib
+includedir=/workspaces/AN6001A-2024-T2-AI-BIGDATA/.conda/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid
